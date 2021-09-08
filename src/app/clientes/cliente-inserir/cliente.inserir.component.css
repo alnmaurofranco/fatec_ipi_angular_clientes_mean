@@ -1,0 +1,21 @@
+/* .bgbg {
+  background-color: black;
+}
+
+.text-white {
+  color: #fff;
+} */
+
+mat-card {
+  width: 30%;
+  margin: auto;
+}
+
+mat-form-field,
+input {
+  width: 100%;
+}
+
+.mat-raised-button {
+  width: 100%;
+}
