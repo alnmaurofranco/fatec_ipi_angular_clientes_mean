@@ -1,29 +1,25 @@
-<div class="containered">
-  <mat-card>
-    <mat-form-field appearance="fill">
-      <mat-label>Nome</mat-label>
-      <input matInput type="text" placeholder="Digite seu nome..." [(ngModel)]="nome" />
-      <button *ngIf="nome" matSuffix mat-icon-button (click)="nome=''">
-        <mat-icon>close</mat-icon>
-      </button>
-    </mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Nome</mat-label>
+  <input matInput type="text" placeholder="Digite seu nome..." [(ngModel)]="nome" />
+  <button *ngIf="nome" matSuffix mat-icon-button (click)="nome=''">
+    <mat-icon>close</mat-icon>
+  </button>
+</mat-form-field>
 
-    <mat-form-field appearance="fill">
-      <mat-label>E-mail</mat-label>
-      <input matInput type="text" placeholder="Digite seu e-mail..." [(ngModel)]="email">
-      <button *ngIf="email" matSuffix mat-icon-button (click)="email=''">
-        <mat-icon>close</mat-icon>
-      </button>
-    </mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>E-mail</mat-label>
+  <input matInput type="text" placeholder="Digite seu e-mail..." [(ngModel)]="email">
+  <button *ngIf="email" matSuffix mat-icon-button (click)="email=''">
+    <mat-icon>close</mat-icon>
+  </button>
+</mat-form-field>
 
-    <mat-form-field appearance="fill">
-      <mat-label>Telefone</mat-label>
-      <input matInput type="text" placeholder="Digite seu telefone..." [(ngModel)]="telefone">
-      <button *ngIf="telefone" matSuffix mat-icon-button (click)="telefone=''">
-        <mat-icon>close</mat-icon>
-      </button>
-    </mat-form-field>
+<mat-form-field appearance="fill">
+  <mat-label>Telefone</mat-label>
+  <input matInput type="text" placeholder="Digite seu telefone..." [(ngModel)]="telefone">
+  <button *ngIf="telefone" matSuffix mat-icon-button (click)="telefone=''">
+    <mat-icon>close</mat-icon>
+  </button>
+</mat-form-field>
 
-    <button mat-raised-button color="primary" type="button" (click)="onAdicionarCliente()">Cadastrar</button>
-  </mat-card>
-</div>
+<button mat-raised-button color="primary" type="button" (click)="onAdicionarCliente()">Cadastrar</button>
